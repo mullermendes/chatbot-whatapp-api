@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "rimraf ./build && tsc",
+    "build": "tsx build/index.js",
     "dev": "nodemon",
     "start": "node build/index.js"
   },
