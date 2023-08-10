@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "tsup",
+    "build": "npm run dev",
     "dev": "nodemon",
-    "start": "node build/index.js"
+    "start": "npm run dev"
   },
   "devDependencies": {
     "@types/node": "^20.1.5",
